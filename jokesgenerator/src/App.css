@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.anek-devanagari {
+  font-family: "Anek Devanagari", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+}
+
+.header-card {
+  background-color: white;
+  border-radius: 8px; 
+  box-shadow: 0 2px 40px #8a2be2; 
+  padding: 20px; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  text-align: center; 
+  margin-top: 50px; 
+}
+
+.header-title {
+  font-family: "Anek Devanagari", sans-serif; 
+  font-size: 2rem;
+  font-weight: bold; 
+  color: #333; 
+}
+
+.getDataButton {
+  background-color: rgb(138, 43, 226); 
+  color: white; 
+  border: none; 
+  border-radius: 12px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; 
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.getDataButton:hover {
+  background-color: darkviolet; 
+  transform: scale(1.05); 
+}
+
+.getDataButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.3); 
+}
+
+.setup {
+  margin-bottom: 4px;
+  font-size: 1.2rem; /* Optional: Adjust font size for better visibility */
+  color: #333; /* Optional: Set a color for better contrast */
+}
+
+.punchline {
+  font-size: x-large;
+  font-weight: bolder;
+}
